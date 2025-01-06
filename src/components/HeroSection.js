@@ -154,7 +154,7 @@ const HeroSection = () => {
   <div className="footer1-content">
     <p>© {new Date().getFullYear()} All rights reserved.</p>
     <p>
-      Made with <a href="https://chamikamunithunga.github.io/Chamika.M/" target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}>by CHAMIKA.M</a>
+      Made  <a href="https://chamikamunithunga.github.io/Chamika.M/" target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}>by CHAMIKA.M</a>
     </p>
   </div>
 </footer>
