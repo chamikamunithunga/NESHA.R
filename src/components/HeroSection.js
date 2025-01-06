@@ -5,7 +5,9 @@ import backgroundImage from '../img/bg.png';
 import modelVideo from '../img/0105.mp4'; 
 import modelVideo1 from '../img/PLACID.mp4'; 
 import modelVideo2 from '../img/NOODY.mp4'; 
-import modelVideo3 from '../img/ZED.mp4'; 
+import modelVideo3 from '../img/ZED.mp4';  
+import modelVideo4 from '../img/kleinder..mp4'; 
+import modelVideo5 from '../img/DORI.mp4'; 
 import galleryImage1 from '../img/pic1.jpg'; 
 import galleryImage2 from '../img/pic2.jpg'; 
 import galleryImage3 from '../img/pic3.jpg'; 
@@ -15,7 +17,6 @@ import galleryImage6 from '../img/pic6.jpg';
 import galleryImage7 from '../img/pic7.jpg';
 import galleryImage8 from '../img/pic8.jpg';
 import galleryImage9 from '../img/pic9.jpg';
-
 import { FaInstagram, FaTiktok, FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 
@@ -72,12 +73,10 @@ const HeroSection = () => {
 
       {/* After the Image Gallery */}
       <ContentSection>
-  <SectionTitle>Projects</SectionTitle>
+  <SectionTitle>Defining Elegance, One Frame At A Time ✨</SectionTitle>
   <SectionDescription>
   
-  Nesha’s modeling projects with NOODYTRIBES, PLACID, DORI, and KLEINDER blend boldness, elegance, and creativity.
-   From the edgy vibe of NOODYTRIBES to the timeless sophistication of PLACID, each campaign showcases her versatility,
-    capturing the essence of modern luxury and style.
+  An enchanting fusion of artistry and elegance, the collaboration with Nesha Rodrigo breathes life into the essence of modern fashion. Known for her captivating presence and unparalleled charisma, Nesha brings a fresh perspective to the campaign, creating a masterpiece that redefines style and resonates with timeless sophistication.
   </SectionDescription>
 
   <ProjectGallery>
@@ -119,6 +118,31 @@ const HeroSection = () => {
         </ProjectDescription>
       </ProjectDetails>
     </ProjectCard>
+
+    <ProjectCard>
+      <ProjectVideoWrapper>
+        <StyledVideo1 src={modelVideo4} autoPlay loop muted />
+      </ProjectVideoWrapper>
+      <ProjectDetails>
+        <ProjectName>KLEINDER</ProjectName>
+        <ProjectDescription>
+        A daring expedition into the realm of modern style, KLEINDER merges audacious creativity with ZENITH’s dynamic vision, forging a campaign that pulsates with energy and redefines the boundaries of contemporary fashion.
+        </ProjectDescription>
+      </ProjectDetails>
+    </ProjectCard>
+
+    <ProjectCard>
+      <ProjectVideoWrapper>
+        <StyledVideo1 src={modelVideo5} autoPlay loop muted />
+      </ProjectVideoWrapper>
+      <ProjectDetails>
+        <ProjectName>DORI</ProjectName>
+        <ProjectDescription>
+        Embark on a bold journey into the essence of modern elegance, where DORI intertwines fearless creativity with ZENITH’s visionary edge. Together, they craft a campaign that vibrates with energy, pushing the frontiers of contemporary fashion into uncharted territory.
+        </ProjectDescription>
+      </ProjectDetails>
+    </ProjectCard>
+    
   </ProjectGallery>
 </ContentSection>
 
@@ -130,7 +154,7 @@ const HeroSection = () => {
     Want to book Nesha for a project or collaboration? Get in touch today!
   </SectionDescription>
   <div className="social-icons">
-    <a href="https://www.instagram.com/nesharodrigo_?igsh=MTQwcDlyMXpnYjBjcQ==" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/nesharodrigo_?igsh=MXVsNzdub3lhemEwdA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
       <FaInstagram style={{ color: '#E4405F', fontSize: '30px', marginRight: '20px' }} />
     </a>
     <a href="https://www.tiktok.com/@neshaa__r?_t=ZS-8sosQN7EoJ6&_r=1" target="_blank" rel="noopener noreferrer">
@@ -154,7 +178,7 @@ const HeroSection = () => {
   <div className="footer1-content">
     <p>© {new Date().getFullYear()} All rights reserved.</p>
     <p>
-      Made  <a href="https://chamikamunithunga.github.io/Chamika.M/" target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}>by CHAMIKA.M</a>
+      Made with <a href="https://chamikamunithunga.github.io/Chamika.M/" target="_blank" rel="noopener noreferrer" style={{ color: 'red' }}>by CHAMIKA.M</a>
     </p>
   </div>
 </footer>
