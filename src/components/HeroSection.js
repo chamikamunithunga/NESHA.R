@@ -19,7 +19,6 @@ import { FaInstagram, FaTiktok, FaFacebook, FaWhatsapp, FaEnvelope } from 'react
 
 
 
-
 const HeroSection = () => {
   return (
     <div>
@@ -40,24 +39,15 @@ const HeroSection = () => {
 
       {/* Additional Content Section */}
       <ContentSection>
-  <SectionTitle>About Nesha</SectionTitle>
-  <SectionDescription>
-    Nesha Rodrigo is a professional model with a passion for creating stunning visuals and captivating audiences. 
-    With years of experience, she has worked with top brands, photographers, and videographers.
-  </SectionDescription>
-
-  <VideoWrapper>
-    <StyledVideo 
-      src="https://chamika.blob.core.windows.net/chaki/0105.mp4" 
-      autoPlay 
-      loop 
-      muted 
-      onError={() => alert('Failed to load video. Check permissions or CORS configuration.')} 
-    />
-  </VideoWrapper>
-</ContentSection>
-
-
+        <SectionTitle>About Nesha</SectionTitle>
+        <SectionDescription>
+          Nesha Rodrigo is a professional model with a passion for creating stunning visuals and captivating audiences. With years of experience, she has worked with top brands, photographers, and videographers.
+        </SectionDescription>
+        
+        <VideoWrapper>
+          <StyledVideo src={modelVideo} autoPlay loop muted />
+        </VideoWrapper>
+      </ContentSection>
 
       {/* Gallery Section */}
       <ContentSection>
