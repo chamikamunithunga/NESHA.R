@@ -15,6 +15,7 @@ import galleryImage6 from '../img/pic6.jpg';
 import galleryImage7 from '../img/pic7.jpg';
 import galleryImage8 from '../img/pic8.jpg';
 import galleryImage9 from '../img/pic9.jpg';
+
 import { FaInstagram, FaTiktok, FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 
