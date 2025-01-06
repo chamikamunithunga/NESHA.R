@@ -1,4 +1,6 @@
 # Nesha Rodrigo - Portfolio
+
+![Screenshot 2025-01-06 at 11 31 53 PM](https://github.com/user-attachments/assets/f207a460-fbad-479e-9da2-5bfab8042aeb)
 ![Screenshot 2025-01-06 at 11 32 07 PM](https://github.com/user-attachments/assets/06fd04d8-080f-4fd0-a49f-dca169a67356)
 ![Screenshot 2025-01-06 at 11 32 22 PM](https://github.com/user-attachments/assets/e05081d5-a36c-49b3-907e-3725611a6937)
 ![Screenshot 2025-01-06 at 11 32 33 PM](https://github.com/user-attachments/assets/f076a75c-14b4-4d36-a4fe-ca9c9e86fffb)
