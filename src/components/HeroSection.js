@@ -163,7 +163,7 @@ const HeroSection = () => {
     <a href="https://www.facebook.com/share/156cWeVe9u/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
       <FaFacebook style={{ color: '#1877F2', fontSize: '30px', marginRight: '20px' }} />
     </a>
-    <a href="https://wa.me/+94725519110" target="_blank" rel="noopener noreferrer">
+    <a href="#" target="_blank" rel="noopener noreferrer">
       <FaWhatsapp style={{ color: '#25D366', fontSize: '30px', marginRight: '20px' }} />
     </a>
     <a href="mailto:nesharodigo06@gmail.com">
