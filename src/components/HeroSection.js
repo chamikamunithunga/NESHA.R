@@ -163,9 +163,7 @@ const HeroSection = () => {
     <a href="https://www.facebook.com/share/156cWeVe9u/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
       <FaFacebook style={{ color: '#1877F2', fontSize: '30px', marginRight: '20px' }} />
     </a>
-    <a href="#" target="_blank" rel="noopener noreferrer">
-      <FaWhatsapp style={{ color: '#25D366', fontSize: '30px', marginRight: '20px' }} />
-    </a>
+    
     <a href="mailto:nesharodigo06@gmail.com">
       <FaEnvelope style={{ color: '#D44638', fontSize: '30px' }} />
     </a>
